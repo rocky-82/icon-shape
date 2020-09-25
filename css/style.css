@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: wheat;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.icon-world ul{
+list-style: none;
+}
+.icon-world ul li{
+    display: inline-block;
+}
+.icon-world ul li a{
+    font-size: 60px;
+    display: block;
+    padding: 20px 40px;
+    color: yellowgreen;
+    background-color: steelblue;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.icon-world ul li a:hover{
+    color: rgb(7, 52, 148);
+    background-color: thistle;
+    transition: 0.5s;
+}
